@@ -5,6 +5,9 @@ import java.util.Collections;
 import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.Resources;
 
+/**
+ * http://jira.codehaus.org/browse/SONARJAVA-985
+ */
 public class SpringHateoas {
 	public class MyBean {
 		private String name;
